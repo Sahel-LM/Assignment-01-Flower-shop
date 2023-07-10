@@ -6,6 +6,45 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+/* nav related css */
+
+nav{
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-between;
+    background-color: #ffd0da;;
+}
+nav > ul{
+    display: flex;
+    margin-right: 230px;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+    
+
+}
+.nav-title{
+    color: #272727;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 800;
+    margin-left: 240px;
+    padding: 10px 0px;
+}
+.nav-title-decoration{
+    color: #f32955;
+    font-size: 35px;
+}
 /* Banner related css */
 
 .banner{
