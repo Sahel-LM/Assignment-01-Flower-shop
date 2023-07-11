@@ -27,6 +27,9 @@ nav li{
     font-size: 20px;
     font-weight: 600;
 }
+nav li:hover{
+    
+}
 nav a{
     text-decoration: none;
     color: #474747;
@@ -39,7 +42,7 @@ nav a{
     font-size: 35px;
     font-weight: 800;
     margin-left: 240px;
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 .nav-title-decoration{
     color: #f32955;
@@ -81,7 +84,260 @@ nav a{
 .banner-photo{
     width: 635px;
     height: 800px;
-    margin-left: 150px;
+    margin-left: 200px;
     margin-top: 50px;
     
+}
+
+/* featured section css */
+
+.featured-option{
+    margin-top: 170px;
+}
+
+.featured-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.featured-description{
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 24px 0px 0px 663px;
+
+}
+.flower-section{
+    display: flex;
+    margin: 60px 0px 0px 240px;
+}
+.flower-1{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.lily{
+    width: 310px;
+    height: 428px;  
+    padding: 110px 78px 0px;
+}
+.flower-2{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin: 0px 24px;
+}
+.bouquet{
+    width: 370px;
+    height: 370px;
+    padding: 117px 47px 51px;
+}
+.flower-3{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.yallow-lily{
+    width: 314px;
+    height: 471px;
+    padding: 67px 75px 0px;
+}
+.flower-name{
+    display: flex;
+    margin-left: 381px; 
+    margin-top: 25px;
+}
+.flower-name a{
+    text-decoration: none;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+.bouquet-flower{
+    margin: 0px 310px;
+}
+
+/* service section css */
+
+.customer-service{
+    width: 1440px;
+    height: 300px;
+    border-radius: 8px;
+    background: rgb(255, 255, 236);
+    margin: 130px 0px 0px 240px;
+}
+.services{
+    display: flex;
+    padding-top: 86px;
+    margin-left: 317px;
+    justify-content: space-between;
+}
+
+.service-photo-1{
+    width: 88px;
+    height: 88px;
+    
+}
+
+.service-photo-2{
+    width: 88px;
+    height: 88px;
+}
+
+.service-photo-3{
+    width: 88px;
+    height: 88px;
+    margin-right: 232px;
+}
+
+.service-description{
+    display: flex;
+    margin-left: 175px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.service-description-1{
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;  
+}
+.service-description-2{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+}
+.service-description-3{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 175px;
+}
+
+/* sing up section css */
+
+.hot-deal{
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgb(255, 255, 236);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+}
+.hot-deat-content{
+
+}
+.hot-deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 230px 0px 0px 432px;
+}
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    width: 594px;
+    margin: 24px 0px 0px 395px;
+}
+.hot-deal-btn{
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 32px 0px 0px 603px;
+}
+.hot-deal-photo{
+    width: 318px;
+    height: 420px;
+    margin: 100px 429px 100px 0px;
+}
+/* social media section css */
+.social-media-bar{
+    margin-top: 128px;
+
+}
+.social-media-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0px 870px;
+}
+.social-media-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 594px;
+    margin: 24px 663px 0px 633px;
+}
+.social-media-photo{
+    margin-top: 48px;
+    margin-left: 220px;
+
+}
+.social-media-photo img{
+    margin-left: 20px;
+}
+/* Latest deal section css */
+.latest-deal{
+    width: 1440px;
+    height: 449px;
+    background-image:url(/rectangle\ 9.png);
+    margin: 128px 240px 0px 240px;
+}
+.latest-deal-title{
+    color: #272727;
+    font-size: 40px;;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 122px;
+    margin-bottom: 0px;
+
+}
+.latest-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.email-box{
+    margin-top: 48px;
+}
+.email-enter{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    margin-left: 309px;
+}
+.btn-submit{
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-left: 16px;
 }
